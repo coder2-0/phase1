@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #login-container {
+    width: 500px;
+    padding: 60px;
+    background: lightpink;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #logo {
+    background-image: url('download.webp'); 
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 20px;
+  }
+  
+  #login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    border-radius: 4px;
+  }
+  
+  #login-form button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #login-form button:hover {
+    background-color: lightgreen;
+  }
+  
+  #footer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #footer a {
+    color: crimson;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  #footer a:not(:last-child):after {
+    content: '|';
+    margin: 0 10px;
+    color: #000;
+  }
+  

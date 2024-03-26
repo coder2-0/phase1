@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#main-container {
+    width: 80%;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    background-image: url('download.webp'); 
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#webpages-section h2 {
+    margin-bottom: 10px;
+}
+
+#webpages-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+#webpages-section li {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
